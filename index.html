@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <script src="https://www.rosesherwood.com/ga.js"></script>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta property="og:title" content="Full Page Photo Layout" />
+    <meta property="og:description" content="A sample website design as part of my portfolio." />
+    <meta property="og:image" content="https://www.rosesherwood.com/portfolio/layouts/champions/assets/ogg-champions.jpg" />
+    <meta property="og:image:type" content="image/jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:url" content="http://www.rosesherwood.com/portfolio/layouts/champions/index.html" />
+    <meta property="og:type" content="business" />
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@thelilmercoder">
+    <meta name="twitter:creator" content="@thelilmercoder">
+    <meta name="twitter:url" content="http://www.rosesherwood.com/portfolio/layouts/champions/index.html">
+    <meta name="twitter:title" content="Full Page Photo Layout">
+    <meta name="twitter:description" content="A sample website design as part of my portfolio.">
+    <meta name="twitter:image" content="https://www.rosesherwood.com/portfolio/layouts/champions/assets/ogg-champions.jpg">    
+
+
+    <title>Champion: Full Page Layout</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    <!-- Jarallax CSS -->
+    <link rel="stylesheet" href="css/jara.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface%7CRaleway" rel="stylesheet">
+    
+  <script src="https://unpkg.com/object-fit-images/dist/ofi.min.js"></script>
+
+
+  </head>
+  
+  <body class="raleway pb-5 letter-spacing-normal">
+
+    <header role="header" class="cover-container vh-100 jarallax bg-light-orange ">
+        <img src="assets/kerry-washington-orange.jpg" alt="a beautiful black woman standing arms crossed glowering down out of an orange background" class="jarallax-img" />    
+        <div class="w-100 vh-100 d-flex align-items-center justify-content-end px-sm-2 px-md-5 px-lg-5 ">
+          <section class="text-left text-white pr-5 mr-12 pl-4">
+            <h1 class="welcome abril dark-chestnut lh-2"><span class="fx-2 bg-white lh-auto">You can be the lead<br>in your own life.</span></h1>
+            <p class="welcome text-uppercase">Kerry Washington</p>
+          </section>
+        </div>
+    </header>
+    
+    <nav class="navbar navbar-expand-md navbar-dark bg-chestnut fixed-bottom px-sm-2 px-md-5 px-lg-5 border-top-1 b--white">
+        <a class="navbar-brand text-uppercase" href="#">
+            Champions
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#theNavbar" aria-controls="theNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="theNavbar" role="navigation">
+            <ul class="navbar-nav ml-auto">
+            <li class="nav-item active px-3">
+                <a class="nav-link" href="https://www.rosesherwood.com">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="#">Philosophy</a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="#">Media</a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="#">In The News</a>
+            </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+  
+    <!-- Smooth Scroll -->
+    <script src="js/smooth-scroll.js"></script>
+
+    <!-- Jarallax required-->
+    <script src="js/jara.js"></script>
+    <script src="js/jara-element.js"></script>
+    <script src="js/jara-video.js"></script>
+    <script>
+        // object-fit polyfill run
+        objectFitImages();
+  
+        /* init jarallax */
+        jarallax(document.querySelectorAll('.jarallax'));
+  
+        jarallax(document.querySelectorAll('.jarallax-keep-img'), {
+            keepImg: true,
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script>
+        $(".scroll-link").on("click", function(e) {   
+        e.preventDefault();
+        $target = "#" + $(this).data("target");
+        $("html, body").animate({
+            scrollTop: $($target).offset().top
+        }, 500);  
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,78 @@
+/* typography */
+body {font-size:12px;}
+.letter-spacing-normal{letter-spacing: 1.24;}
+.measure{ max-width: 32em; }
+.abril{font-family: 'Abril Fatface';}
+.raleway{font-family: 'Raleway';}
+.fx-2{font-size:2.8em;}
+.lh-auto{line-height:1.6em;}
+.lh-2{line-height: 2.4em;}
+
+/* colours */
+.orange{color:#d9631e;}
+.bg-orange{background-color:#d9631e;}
+.light-orange{color:#f2a341;}
+.bg-light-orange{background-color:#f2a341;}
+.white{color:#fff;}
+.b--white{border-color:#fff;}
+.bg-white{background-color:#fff;}
+.dark-gray{color:#595959;}
+.bg-dark-gray{background-color:#595959;}
+.light-gray{color:#a6a6a6;}
+.bg-light-gray{background-color:#a6a6a6;}
+.black{color:#333;}
+.bg-black{background-color:#333;}
+.chestnut{color:#341A0A}
+.bg-chestnut{background-color:#341A0A}
+.dark-chestnut{color:#1D0F06;}
+.b--dark-chestnut{border-color:#1D0F06;}
+.border-top-1{border-width:1px 0 0 0; border-style:solid;}
+
+
+/* layout*/
+.vh-100{ height: 100vh; }
+.pt-60{padding-top:60vh;}
+.mr-10{margin-right:6.4em;}
+.mr-12{margin-right:8em;}
+.pl-4{padding-left: 1.2em;}
+
+/* navbar */
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.99);
+}
+
+
+/* Extra small devices (portrait phones, less than 576px)
+   No media query since this is the default in Bootstrap */
+
+   .fx-2{font-size:1.2em;}
+   .welcome{font-size:1.2rem;}
+   .lead{font-size:.8rem;}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .fx-2{font-size:1.6em;}
+  .welcome{font-size:1.6rem;}
+  .lead{font-size:1.2rem;}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .fx-2{font-size:1.6em;}  
+  .welcome{font-size:2rem;}
+  .lead{font-size:1.6rem;}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .fx-2{font-size:2.4em;}
+  .welcome{font-size:1.8rem;}
+  .lead{font-size:1.24rem;}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .fx-2{font-size:2.4em;}
+  .welcome{font-size:2.4rem;}
+  .lead{font-size:1.8rem;}
+}
