@@ -18,4 +18,4 @@ I've set all of the spacing and sizing to look good to the eye using recommended
 * Specific utility classes for customized aesthetics
 
 ## live demo
-See it live at [link](https://www.rosesherwood.com/portfolio/champions/ "rosesherwood.com")
+See it live at [rosesherwood.com](https://www.rosesherwood.com/portfolio/champions/ "visit my portfolio")
