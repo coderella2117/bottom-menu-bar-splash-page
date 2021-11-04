@@ -16,3 +16,6 @@ I've set all of the spacing and sizing to look good to the eye using recommended
 ## includes
 * Bootstrap and Jarallax for the image parallax effect on scroll
 * Specific utility classes for customized aesthetics
+
+## live demo
+See it live at [link](https://www.rosesherwood.com/portfolio/champions/ "rosesherwood.com")
