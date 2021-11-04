@@ -14,5 +14,5 @@ The fonts pair gently together and the headline that should dominate the screen 
 I've set all of the spacing and sizing to look good to the eye using recommended multiples.
 
 ## includes
-*Bootstrap and Jarallax for the image parallax effect on scroll
-*Some utility classes for specific aesthetics
+* Bootstrap and Jarallax for the image parallax effect on scroll
+* Specific utility classes for customized aesthetics
